@@ -1,0 +1,270 @@
+
+.head-banner {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #397ec3;
+	background-image: url("images/index.jpg");
+	background-size: cover;
+	background-position: left;
+	background-blend-mode: multiply;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+.navbar {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover {
+	background: rgb(207, 208, 209);
+	transition: 0.5s;
+}
+.logo {
+	width: 30px; 
+	height: 24px;
+}
+
+div.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.bi {
+	height: 60px;
+	width: 60px;
+}
+
+.sezione-icone {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.head-banner h1 {
+	font-size: 40px;
+}
+
+@media screen and (min-width: 768px) {
+	.head-banner {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+	.head-banner h1 {
+		font-size: 70px;
+	}
+
+	.sezione-immagini .testo{
+		padding: 7rem;
+	}
+}
+
+.form-label {
+	display: contents;
+	font-weight: bold;
+}
+
+.sezione-immagini .immagine{
+	min-height: 13rem;
+	background-size: cover;
+	background-color: #397ec3;
+	background-blend-mode: multiply;
+}
+
+.sezione-immagini .testo{
+	padding: 3rem;
+}
+
+#button_index {
+	color: #fff;
+	background-color: #080680;
+	width: 230px;
+	height: fit-content;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+#button_index:hover {
+	background: #3734ec;
+	border-color: #3734ec;
+	color: #fff;
+}
+
+#button_review {
+	color: #fff;
+	background-color: #080680;
+	width: 200px;
+	height: fit-content;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+#button_review:hover {
+background: #3734ec;
+border-color: #3734ec;
+color: #fff;
+}
+
+#button_profile {
+	color: #fff;
+	background-color: #080680;
+	width: 200px;
+	height: fit-content;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+#button_profile:hover {
+background: #3734ec;
+border-color: #3734ec;
+color: #fff;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	background: rgb(227 226 226 / 90%);;
+	color: #12375c;
+}
+.login-container {
+	height: 90vh;
+	width: 100%;
+}
+.reg-container {
+	height: 130vh;
+	width: 100%;
+}
+.buy-container {
+	height: 120vh;
+	width: 100%;
+}
+.review-container {
+	height: 100vh;
+	width: 100%;
+}
+.upprof-container {
+	height: 180vh;
+	width: 100%;
+}
+.uppssw-container {
+	height: 110vh;
+	width: 100%;
+}
+.login-form {
+	margin: auto;
+	width: 420px;
+	padding: 15px;
+	max-width: 100%;
+}
+.login-form .form-control {
+	font-size: 15px;
+	min-height: 48px;
+	font-weight: 500;
+}
+.login-form a {
+	text-decoration: none;
+	color: #080680;
+}
+.login-form a:hover {
+	color: #5d5bee;
+}
+.forgot-link {
+	font-size: 13px;
+}
+
+.form-control:focus {
+	border-color: #080680;
+	box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+.btn-custom {
+	background: #080680;
+	border-color: #080680;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	min-height: 48px;
+}
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus {
+	background: #3734ec;
+	border-color: #3734ec;
+	color: #fff;
+}
+.btn-custom:focus {
+	box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, .25);
+}
+
+.container_page a.link {
+	text-decoration: none;
+	color: #080680;
+}
+.container_page a.link:hover {
+	text-decoration: underline;
+	color: #5d5bee;
+}
+footer {
+	background-color: rgb(8 6 128);
+    color: white;
+	font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+	display: block;
+}
+.container_page{
+	min-height: 100vh;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.classificazione {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+.classificazione label{
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	font-size: 40px;
+}
+
+label.review:hover,
+label.review:hover ~ label {
+	color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+	color: orange;
+}
+
+label.recensioni {
+	color: orange;
+	font-size: 20px;
+}
+td.cella_commento {
+	width: 35vw;
+	min-width: 250px;
+}
+td.cella_voto {
+	width:fit-content;
+}
+
+button#id_ticket {
+	border: none;
+	background: none;
+}
+.table_profile .table{
+	max-width: 400px;
+}
+
+.container_alert .alert{
+	width: 400px;
+}
+.container_alert .alert a {
+	text-decoration: none;
+	color: #080680;
+}
+.container_alert .alert a:hover {
+	text-decoration: underline;
+	color: #5d5bee;
+}
